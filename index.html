@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <title>Таймлайн MCGL</title>
+    <title>История Галактики</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="./libs/timeline.css" />
-    <script src="./libs/timeline.js"></script>
-    <link
-      rel="stylesheet"
-      href="./libs/timeline.theme.contrast.css"
-      media="all"
-    />
+    <script src="./js/timeline.js"></script>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <style>
       .clan-list {
         display: block;
@@ -47,7 +42,7 @@
         text-decoration: underline !important;
       }
       .f4 {
-        font-size: 24px !important;
+        font-size: 1.5rem !important;
       }
     </style>
   </head>
@@ -61,16 +56,23 @@
           href="https://docs.google.com/spreadsheets/d/1mNB1OUyZsV59dRhcatl3h0CZpMJFRK2qMRfI9FBTabk/pubhtml"
           target="_blank"
           >формате таблицы</a
-        ></noscript
-      >
+        >
+      </noscript>
     </div>
     <script>
       window.onload = function () {
+        const libPath = "js";
+
         const additionalOptions = {
           language: "ru",
           initial_zoom: 4,
           duration: 150,
           font: "ubuntu",
+          theme: "contrast",
+          script_path: `${document.location.href.substring(
+            0,
+            document.location.href.lastIndexOf("/")
+          )}/${libPath}/`,
         };
         timeline = new TL.Timeline(
           "timeline-embed",
