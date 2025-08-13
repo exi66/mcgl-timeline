@@ -2,11 +2,8 @@
 
 Интерактивный таймлайн по истории игрового проекта [MCGL](https://minecraft-galaxy.ru/ru/)
 
----
-
-<div style="text-align: center; text-transform: uppercase; font-weight: bold;">статус: не обновляется</div>
-
----
+> [!IMPORTANT]  
+> Проект не обновляется
 
 ## Ссылки
 
