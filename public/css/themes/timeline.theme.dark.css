@@ -284,6 +284,7 @@
   padding: 0px;
   padding-left: 30px;
   margin: 0;
+  margin-bottom: 10px;
 }
 .tl-timeline .tl-text ul li {
   margin-bottom: 5px;
@@ -1349,7 +1350,6 @@
 ================================================== */
 .tl-timeera {
   height: 100%;
-  height: 40px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1382,28 +1382,28 @@
 }
 .tl-timeera .tl-timeera-background {
   position: absolute;
-  background-color: #28a6c3;
+  background-color: linear-gradient(to bottom, rgba(0, 0, 255, 0), rgba(40, 166, 195, 0.8));
   width: 100%;
   height: 100%;
   opacity: 1;
 }
 .tl-timeera.tl-timeera-color0 .tl-timeera-background {
-  background-color: #c34528;
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0) 66%, rgba(195, 69, 40, 0.5) 100%);
 }
 .tl-timeera.tl-timeera-color1 .tl-timeera-background {
-  background-color: #28a6c3;
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0) 66%, rgba(40, 166, 195, 0.5) 100%);
 }
 .tl-timeera.tl-timeera-color2 .tl-timeera-background {
-  background-color: #2832c3;
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0) 66%, rgba(40, 50, 195, 0.5) 100%);
 }
 .tl-timeera.tl-timeera-color3 .tl-timeera-background {
-  background-color: #28c36c;
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0) 66%, rgba(40, 195, 108, 0.5) 100%);
 }
 .tl-timeera.tl-timeera-color4 .tl-timeera-background {
-  background-color: #286dc3;
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0) 66%, rgba(40, 109, 195, 0.5) 100%);
 }
 .tl-timeera.tl-timeera-color5 .tl-timeera-background {
-  background-color: #28c3a7;
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0) 66%, rgba(40, 195, 167, 0.5) 100%);
 }
 .tl-timeera .tl-timeera-content-container {
   position: absolute;
@@ -1423,7 +1423,6 @@
   -o-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
   transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
   box-sizing: border-box;
-  border: 1px solid #0d0d0d;
 }
 .tl-timeera .tl-timeera-content-container .tl-timeera-content {
   position: relative;
@@ -2028,6 +2027,7 @@
   -webkit-line-clamp: 2;
   line-clamp: 2;
   text-overflow: ellipsis;
+  transition: all 0.15s ease-in-out;
   /* Non standard for webkit */
   /*
 	   -webkit-hyphens: auto;
@@ -2089,7 +2089,8 @@
 ================================================== */
 .tl-slidenav-next .tl-slidenav-icon,
 .tl-slidenav-previous .tl-slidenav-icon {
-  font-family: 'tl-icons';
+  transition: all 0.15s ease-in-out;
+  font-family: "tl-icons";
   speak: none;
   font-style: normal;
   font-weight: normal;
