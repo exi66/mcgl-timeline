@@ -1,20 +1,20 @@
 # mcgl-timeline
 
-Интерактивный таймлайн по истории игрового проекта [MCGL](https://minecraft-galaxy.ru/ru/)
+Интерактивный таймлайн, посвященный истории игрового проекта [Minecraft Galaxy](https://minecraft-galaxy.ru/ru/).
+Проект построен на базе собственного форка движка **TimelineJS**.
 
-> [!IMPORTANT]  
-> Таблица таймлайна не обновляется с 2021 года.
+> Таблица событий не обновляется с 2021 года. Нуждается в мейнтейнере.
 
-## Ссылки
+## Ресурсы
 
-- Основная [гугл-таблица](https://docs.google.com/spreadsheets/d/1mNB1OUyZsV59dRhcatl3h0CZpMJFRK2qMRfI9FBTabk/pubhtml)
-- [Fontend от timeline.knightlab](https://timeline.knightlab.com/)
+- [Демо](https://exi66.github.io/mcgl-timeline/)
+- [Таблица событий](https://docs.google.com/spreadsheets/d/1mNB1OUyZsV59dRhcatl3h0CZpMJFRK2qMRfI9FBTabk/pubhtml)
 
 ## Roadmap
 
-| Статус             | Задача                                         |
-| ------------------ | ---------------------------------------------- |
-| :x:                | Тёмная тема                                    |
-| :heavy_check_mark: | Починить цвета эр                              |
-| :heavy_check_mark: | Перенести все картинки в локальный репозиторий |
-| :heavy_check_mark: | Поиск среди событий                            |
+| Статус | Задача                                         |
+| :----: | :--------------------------------------------- |
+|   ✅   | Починить цвета эр                              |
+|   ✅   | Перенести все картинки в локальный репозиторий |
+|   ✅   | Реализовать поиск среди событий                |
+|   ❌   | Добавить тёмную тему                           |
